@@ -10,7 +10,7 @@ logging.getLogger("pyrogram").setLevel(logging.ERROR)
 from pyrogram import Client, __version__
 from pyrogram.raw.all import layer
 from database.autofilter_mdb import Media
-from John_Luther_bot import API_ID, API_HASH, BOT_TOKEN, temp
+from JOHN_LUTHER import API_ID, API_HASH, BOT_TOKEN, temp
 
 class Bot(Client):
 
@@ -21,7 +21,7 @@ class Bot(Client):
             api_hash=API_HASH,
             bot_token=BOT_TOKEN,
             workers=50,
-            plugins={"root": "John_Luther_bot"},
+            plugins={"root": "JOHN_LUTHER"},
             sleep_threshold=5,
         )
 
