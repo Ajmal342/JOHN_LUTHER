@@ -198,7 +198,7 @@ broadcast - admin only
 ----
 
 ### Deploy To Heroku
-<a href="https://heroku.com/deploy?template=https://github.com/Ajmal342/JOHN_LUTHER"><img src="https://github.com/Ajmal342/JOHN_LUTHER/blob/LuciferMoringstar-Robot/LuciferMoringstar_Robot/modules/logo/LuciferMoringstar-Deploy-To-Heroku%20(1).jpg" alt="PR0FESS0R-99" border="0" height="125" width="200" align="center" /></a>
+<a href="https://heroku.com/deploy?template=https://github.com/Ajmal342/JOHN_LUTHER"><img src="https://github.com/Ajmal342/JOHN_LUTHER/blob/John_Luther_bot/John_Luther_bot/modules/logo/LuciferMoringstar-Deploy-To-Heroku%20(1).jpg" alt="AJMAL-99" border="0" height="125" width="200" align="center" /></a>
 
 ----
 
