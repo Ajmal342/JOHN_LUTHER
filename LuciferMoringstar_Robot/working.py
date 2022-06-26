@@ -20,9 +20,9 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-# Telegram Link : https://telegram.dog/Mo_Tech_Group
-# Repo Link : https://github.com/PR0FESS0R-99/LuciferMoringstar-Robot
-# License Link : https://github.com/PR0FESS0R-99/LuciferMoringstar-Robot/blob/LuciferMoringstar-Robot/LICENSE
+# Telegram Link : https://telegram.dog/filim_factory_king
+# Repo Link : https://github.com/Ajmal342/JOHN_LUTHER
+# License Link : https://github.com/Ajmal342/JOHN_LUTHER
  
 from pyrogram import Client as lucifermoringstar_robot, filters, enums
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
@@ -54,7 +54,7 @@ async def pmbot_filters(client, update):
     else:
         await pm_filters(client, update)
 
-@lucifermoringstar_robot.on_message(filters.text & filters.group & filters.incoming & filters.chat(AUTH_GROUPS) if AUTH_GROUPS else filters.text & filters.group & filters.incoming)
+@John_Luther_bot.on_message(filters.text & filters.group & filters.incoming & filters.chat(AUTH_GROUPS) if AUTH_GROUPS else filters.text & filters.group & filters.incoming)
 async def groupfilters(client, update):
     if not await db.get_chat(update.chat.id):
         try:
